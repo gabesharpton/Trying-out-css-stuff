@@ -1,9 +1,4 @@
-/* div {
-  color: green;
-  font-size: 40px;
-} */
-
-@back: green;
-div{
-    background-color: @back;
+body {
+  background-color: green;
+  font-size: 80px;
 }
