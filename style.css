@@ -1,0 +1,9 @@
+/* div {
+  color: green;
+  font-size: 40px;
+} */
+
+@back: green;
+div{
+    background-color: @back;
+}
