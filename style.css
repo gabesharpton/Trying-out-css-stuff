@@ -16,7 +16,7 @@ div#login {
   margin-right: auto;
   width: 45%;
   max-width: 800px;
-  background-image: repeating-radial-gradient(purple, limegreen 10%);
+  background-image: repeating-radial-gradient(farthest-corner at 50% 30%, limegreen, purple 20%);
 }
 input {
   width: 300px;
@@ -28,4 +28,6 @@ input {
   margin-bottom: 1vw;
   font-size: 3vw;
   text-indent: 1ex;
+  background: linear-gradient(135deg, cyan, limegreen);
+  color: #437070;
 }
