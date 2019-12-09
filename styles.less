@@ -30,7 +30,7 @@ div#login{
 }
 
 input {
-    width: @loginItem;
+    width: 35%;
     height: 5vw;
     margin-top: 1vw;
     margin-left: auto;
@@ -40,7 +40,14 @@ input {
     font-size: 3vw;
     text-indent: 1ex;
     background: linear-gradient(135deg,cyan, limegreen);
-    color: #437070
-
-    ;
+    color: #437070;
+    transition: width .5s;
+}
+input:hover {
+    color: transparent;
+    width: @loginItem;
+}
+input:focus{
+    width: @loginItem;
+    color: #437070;
 }

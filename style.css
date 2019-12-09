@@ -19,7 +19,7 @@ div#login {
   background-image: repeating-radial-gradient(farthest-corner at 50% 30%, limegreen, purple 20%);
 }
 input {
-  width: 300px;
+  width: 35%;
   height: 5vw;
   margin-top: 1vw;
   margin-left: auto;
@@ -29,5 +29,14 @@ input {
   font-size: 3vw;
   text-indent: 1ex;
   background: linear-gradient(135deg, cyan, limegreen);
+  color: #437070;
+  transition: width 0.5s;
+}
+input:hover {
+  color: transparent;
+  width: 300px;
+}
+input:focus {
+  width: 300px;
   color: #437070;
 }
