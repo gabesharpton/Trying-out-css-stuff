@@ -1,6 +1,8 @@
 
 @back: green;
 @fullScreen: 100%;
+@loginItem : 300px;
+    
 
 body{
     background-color: @back;
@@ -8,11 +10,33 @@ body{
 }
 
 img {
-    max-width: 300px;
-    width: @fullScreen;
+    
+    width: @loginItem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    
+    
+}
+div#login{
+    display: grid;
     border: 2vw groove blueviolet;
+    padding-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    max-width: 800px;
+    background-image: repeating-radial-gradient(purple, limegreen 10%);
+}
+
+input {
+    width: @loginItem;
+    height: 5vw;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+    text-indent: 1ex;
 }
