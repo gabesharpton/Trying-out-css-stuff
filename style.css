@@ -2,3 +2,7 @@ body {
   background-color: green;
   font-size: 80px;
 }
+img {
+  align-items: center;
+  width: 80%;
+}
