@@ -34,9 +34,25 @@ input {
 }
 input:hover {
   color: transparent;
-  width: 300px;
+  width: 75%;
 }
 input:focus {
-  width: 300px;
+  width: 75%;
   color: #437070;
+}
+.nav {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  font-size: 3vw;
+  padding: 15px;
+  border: solid black 2px;
+  background: linear-gradient(135deg, cyan, limegreen);
+}
+#div1,
+#div2,
+#div3 {
+  border: solid black 1px;
+  margin: 10px;
+  padding: 5px;
 }
